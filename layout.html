@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{% block title %}{% endblock %}</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+<body class="loggedin">
+	<nav class="navtop">
+		<div>
+<h1>DP Tech Arc Ltd Employee Management System</h1>
+                <a href="{{ url_for('home') }}"><i class="fas fa-home"></i>Home</a>
+                <a href="{{ url_for('profile') }}"><i class="fas fa-user-circle"></i>Profile</a>
+                <a href="{{ url_for('register') }}"><i class="fas fa-plus"></i>New employee</a>
+                <a href="{{ url_for('verify') }}"><i class="fas fa-pencil-alt"></i>Edit Details</a>
+                <a href="{{ url_for('home') }}"><i class="fas fa-trash-alt"></i>Delete employee</a>
+                <a href="https://dashboard.stripe.com/test/dashboard"><i class="fas fa-chart-line"></i>Overview</a>
+                <a href="{{ url_for('payments') }}"><i class="fas fa-money-check"></i>Payment</a>
+                <a href="{{ url_for('home') }}"><i class="fas fa-question-circle"></i>Help Guides</a>
+                <a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i>Logout</a>
+			</div>
+		</nav>
+		<div class="content">
+			{% block content %}{% endblock %}
+		</div>
+	</body>
+</html>

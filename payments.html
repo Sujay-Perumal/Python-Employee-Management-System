@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block title %}Payments{% endblock %}
+
+{% block content %}	  
+<h2>Payment</h2>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Edit details</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="register">
+			<h1>Payment</h1>
+			<div class="links">
+
+			</div>
+			<form action="{{ url_for('verify') }}" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<div class="msg">{{ msg }}</div>
+				<input type="submit" value="submit">
+			</form>
+		</div>
+<div>  
+    <h1>Pay employee by clicking on the button below.</h1>
+    <form action="/payment" method="POST">
+        <script src="https://checkout.stripe.com/checkout.js" 
+                class="stripe-button"
+                data-key="pk_test_IbhXBeQlwAwBdu9QxzDz8CBf00BcGwFW8B"
+                data-description="Monthly payment to employee"
+                data-name="DP Tech Arc Ltd"
+                data-image="/images/logo/hw_project.png"
+                data-amount="750000"></script>
+    </form>
+<div>
+{% endblock %}

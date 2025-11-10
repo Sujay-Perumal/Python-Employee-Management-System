@@ -1,0 +1,31 @@
+{% extends 'layout.html' %}
+
+{% block title %}Edit details{% endblock %}
+
+{% block content %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Edit details</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="register">
+			<h1>Edit details</h1>
+			<div class="links">
+
+			</div>
+			<form action="{{ url_for('verify') }}" method="post">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<div class="msg">{{ msg }}</div>
+				<input type="submit" value="submit">
+			</form>
+		</div>
+
+	</body>
+</html>
+{% endblock %}

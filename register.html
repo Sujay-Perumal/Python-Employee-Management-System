@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+{% extends 'layout.html' %}
+
+{% block title %}New employee{% endblock %}
+
+{% block content %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Register</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	</head>
+	<body>
+		<div class="register">
+			<h1>New Employee</h1>
+			<div class="links">
+			</div>
+			<form action="{{ url_for('register') }}" method="post" autocomplete="off">
+				<label for="username">
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+				<label for="email">
+					<i class="fas fa-envelope"></i>
+				</label>
+				<input type="email" name="email" placeholder="Email" id="email" required>
+                                <label for="birth">
+					<i class="fas fa-birthday-cake"></i>
+				</label>
+				<input type="text" name="birth" placeholder="Birth date" id="birth" required>
+                                <label for="title">
+					<i class="fas fa-user-tag"></i>
+				</label>
+				<input type="text" name="title" placeholder="Job Title" id="title" required>
+                                <label for="Num">
+					<i class="fas fa-phone"></i>
+				</label>
+				<input type="text" name="Num" placeholder="Phone Number" id="Num" required>
+                                <label for="access">
+					<i class="fas fa-check"></i>
+				</label>
+				<input type="text" name="access" placeholder="access" id="access" required>
+				<div class="msg">{{ msg }}</div>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</body>
+</html>
+{% endblock %}
