@@ -28,14 +28,18 @@
 - Simple UI to trigger payments
 
 ### 🧭 Pages Included  
-- Login  
-- Register  
-- Home  
-- Profile  
-- Payments  
-- Verify User  
+- Login
+  ![login](https://github.com/user-attachments/assets/919474d1-80cd-409c-ae0a-e75fe07ffea3)
+- Register
+  ![new employee](https://github.com/user-attachments/assets/697fe93e-ca18-4996-a034-571cfa4d6e33)
+- Home
+  ![home](https://github.com/user-attachments/assets/69f76537-9ce5-47be-af38-4c056719b575)
+- Profile
+  ![profile](https://github.com/user-attachments/assets/9544adf2-51eb-45c1-872c-b34824b926b9)
+- Payments
+  ![payment](https://github.com/user-attachments/assets/27a968eb-38ed-4f9b-be02-1d9a721d60c1)
 - Edit Details  
-
+![edit details](https://github.com/user-attachments/assets/56b2d379-62ec-4455-9540-e001758de8ce)
 ---
 
 ## 🛠️ Technologies Used
