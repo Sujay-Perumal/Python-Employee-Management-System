@@ -3,6 +3,8 @@
 <!-- Badges -->
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-Framework-lightgrey.svg)
+![HTML](https://img.shields.io/badge/HTML-5-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-3-1572B6?logo=css3&logoColor=white)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-orange.svg)
 ![Stripe](https://img.shields.io/badge/Payments-Stripe-626CD9.svg)
 
