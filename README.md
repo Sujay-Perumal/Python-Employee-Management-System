@@ -43,8 +43,8 @@
 - Edit Details  
   ![edit details](https://github.com/user-attachments/assets/3b028fa6-9024-4014-8288-54d23eb1e2d7)
 - Edit Details Drop down selection
-- ![Drop down selection](<img width="444" height="364" alt="Edit details dropdown" src="https://github.com/user-attachments/assets/2c67e412-227b-4649-b78c-98abe87217c7" />)
-
+  
+  <img width="444" height="364" alt="Edit details dropdown" src="https://github.com/user-attachments/assets/2eec50e5-07e1-4977-bbca-aced22f9d084" />
 
 ---
 
