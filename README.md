@@ -41,7 +41,11 @@
 - Payments
   ![payment](https://github.com/user-attachments/assets/27a968eb-38ed-4f9b-be02-1d9a721d60c1)
 - Edit Details  
-![edit details](https://github.com/user-attachments/assets/56b2d379-62ec-4455-9540-e001758de8ce)
+  ![edit details](https://github.com/user-attachments/assets/3b028fa6-9024-4014-8288-54d23eb1e2d7)
+- Edit Details Drop down selection
+- ![Drop down selection](<img width="444" height="364" alt="Edit details dropdown" src="https://github.com/user-attachments/assets/2c67e412-227b-4649-b78c-98abe87217c7" />)
+
+
 ---
 
 ## 🛠️ Technologies Used
